@@ -62,6 +62,9 @@
           "SG-PG"
         ]
       }
+    },
+    {
+      "calculate":"datum[Stat_selection]","as":"stat_sel"
     }
   ]
 }
