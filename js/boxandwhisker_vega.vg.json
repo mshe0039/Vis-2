@@ -13,7 +13,7 @@
     "size": 50
   },
   "params": [{
-    "name": "selection"
+    "name": "select_stat"
   }],
   "encoding": {
     "x": {
