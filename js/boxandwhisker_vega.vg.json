@@ -63,7 +63,7 @@
         ]
       },
       {
-        "calculate":"datum[Stat_selection]", "as":
+        "calculate":"datum[Stat_selection]", "as":"stat"
       }
     }
   ]
