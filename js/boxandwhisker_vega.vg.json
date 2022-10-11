@@ -12,6 +12,7 @@
     "extent": "min-max",
     "size": 50
   },
+  ""
   "encoding": {
     "x": {
       "field": "Pos",
