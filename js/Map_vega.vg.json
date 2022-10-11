@@ -27,10 +27,10 @@
             }
         }
     ],
-    "vconcat": [
+    "hconcat": [
         {
             "width": "container",
-            "height": 450,
+            "height": "container",
             "title": "Earthquakes of magnitude 4 or large between 4 Oct2020 and 10 Oct 2020",
             "projection": {
                 "type": "albersUsa"
