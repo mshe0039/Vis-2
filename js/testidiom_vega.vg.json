@@ -7,7 +7,7 @@
   "background":"#FFFFC2",
   "width": 980,
   "height": 310,
-  "title": "Performance of ",
+  "title": "Performance of NBA ",
   "params": [
     {
       "name": "year_sel",
