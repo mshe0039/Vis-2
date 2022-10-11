@@ -20,35 +20,48 @@
 <body scr="https://cdn.pixabay.com/photo/2015/09/09/20/33/basketball-933173__340.jpg">
     <div><img src="https://cdn.pixabay.com/photo/2015/09/09/20/33/basketball-933173__340.jpg" alt="NBA photo">
         <h1 style="text-align: center; font-family: Noto Sans; font-size: 100; font-weight: bold;">NBA Statistics</h1>
-        <div id="Map_vega" class="pure-u-3-4">
-            <script type="text/javascript">
-                var spec1 = "js/Map_vega.vg.json";
-                vegaEmbed('#Map_vega', spec1).then(function (result) {
-                    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-                }).catch(console.error);
-            </script>
+        <!--row 1-->
+        <div class="pure-g">
+            <div id="Map_vega" class="pure-u-3-4">
+                <script type="text/javascript">
+                    var spec1 = "js/Map_vega.vg.json";
+                    vegaEmbed('#Map_vega', spec1).then(function (result) {
+                        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+                    }).catch(console.error);
+                </script>
+            </div>
         </div>
-        <div id="boxandwhisker_vega"></div>
-        <script type="text/javascript">
-            var spec2 = "js/boxandwhisker_vega.vg.json";
-            vegaEmbed('#boxandwhisker_vega', spec2).then(function (result) {
-                // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-            }).catch(console.error);
-        </script>
-        <div id="idiom3_vega"></div>
-        <script type="text/javascript">
-            var spec3 = "js/idiom3_vega.vg.json";
-            vegaEmbed('#idiom3_vega', spec3).then(function (result) {
-                // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-            }).catch(console.error);
-        </script>
-        <div id="testidiom_vega">
-            <script type="text/javascript">
-                var spec4 = "js/testidiom_vega.vg.json";
-                vegaEmbed('#testidiom_vega', spec4).then(function (result) {
-                    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-                }).catch(console.error);
-            </script>
+        <!--row 2-->
+        <div class="pure-g">
+            <div id="boxandwhisker_vega">
+                <script type="text/javascript">
+                    var spec2 = "js/boxandwhisker_vega.vg.json";
+                    vegaEmbed('#boxandwhisker_vega', spec2).then(function (result) {
+                        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+                    }).catch(console.error);
+                </script>
+            </div>
+        </div>
+        <!--row 3-->
+        <div class="pure-g">
+            <div id="idiom3_vega">
+                <script type="text/javascript">
+                    var spec3 = "js/idiom3_vega.vg.json";
+                    vegaEmbed('#idiom3_vega', spec3).then(function (result) {
+                        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+                    }).catch(console.error);
+                </script>
+            </div>
+        </div>
+        <div class="pure-g">
+            <div id="testidiom_vega">
+                <script type="text/javascript">
+                    var spec4 = "js/testidiom_vega.vg.json";
+                    vegaEmbed('#testidiom_vega', spec4).then(function (result) {
+                        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+                    }).catch(console.error);
+                </script>
+            </div>
         </div>
     </div>
 </body>
