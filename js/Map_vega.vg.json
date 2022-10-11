@@ -31,7 +31,7 @@
         {
             "width": 600,
             "height": 300,
-            "title": "Combined NBA statistics of all allstar players from ",
+            "title": "Combined NBA statistics of all allstar players from each american",
             "projection": {
                 "type": "albersUsa"
             },
