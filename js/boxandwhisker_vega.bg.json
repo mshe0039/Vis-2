@@ -1,24 +1,42 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "description": "A parallel coordinates plot",
-  "data": {"url": "https://raw.githubusercontent.com/mshe0039/Visualisation-2/main/2002-03%20NBA%20-%20Sheet1.csv"},
+  "data": {
+    "url": "https://raw.githubusercontent.com/mshe0039/Visualisation-2/main/2002-03%20NBA%20-%20Sheet1.csv"
+  },
   "width": 500,
   "height": 500,
-  "mark":{"type":"boxplot","extent":"min-max","size": 70},
+  "mark": {
+    "type": "boxplot",
+    "extent": "min-max",
+    "size": 70
+  },
   "encoding": {
-    "x":{
-      "field":"Pos",
-      "type":"nominal"
+    "x": {
+      "field": "Pos",
+      "type": "nominal"
     },
-    "color":{
-      "field":"Pos"
+    "color": {
+      "field": "Pos"
     },
-    "y":{
-    "field":"PTS",
-    "type": "quantitative"
+    "y": {
+      "field": "PTS",
+      "type": "quantitative"
     }
   },
-  "transform": [{
-    "filter":{"field": "Pos","oneOf":["SF","SG","PF","PG","C","SG-PG"]}
-  }]
+  "transform": [
+    {
+      "filter": {
+        "field": "Pos",
+        "oneOf": [
+          "SF",
+          "SG",
+          "PF",
+          "PG",
+          "C",
+          "SG-PG"
+        ]
+      }
+    }
+  ]
 }
