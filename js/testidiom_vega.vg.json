@@ -18,30 +18,6 @@
         "step": 1,
         "name": "year"
       }
-    },
-    {
-      "name": "stat",
-      "value": "PTS",
-      "bind": {
-        "input": "select",
-        "options": [
-          "PTS",
-          "G",
-          "TwoP",
-          "ThreeP",
-          "FT",
-          "BLK"
-        ],
-        "labels": [
-          "Average Points Per Round",
-          "Average Goals Per Round",
-          "Average 3 Pointers Per Round",
-          "Average 2 Pointers Per Round",
-          "Average free throws Per Round",
-          "Average Blocks Per Round"
-        ],
-        "name": "Stat Selection"
-      }
     }
   ],
   "transform": [
