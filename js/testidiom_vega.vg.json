@@ -7,7 +7,7 @@
   "background":"#FFFFC2",
   "width": 980,
   "height": 310,
-  "title": "Combined NBA statistics of all allstar players from each State",
+  "title": "Perf",
   "params": [
     {
       "name": "year_sel",
