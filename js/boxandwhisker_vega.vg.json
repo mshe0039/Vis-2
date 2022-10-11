@@ -45,7 +45,7 @@
       "field": "Pos"
     },
     "y": {
-      "field": "PTS",
+      "field": "stat",
       "type": "quantitative"
     }
   },
