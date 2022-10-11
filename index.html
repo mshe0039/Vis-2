@@ -22,7 +22,7 @@
     <div style="margin-top:3%;">
         <h1 style="text-align: center; font-size: 100; font-weight: bold;">NBA Statistics</h1>
         <!--row 1-->
-        <div style="width:90%; height: 500px;margin-left: 5%; display: flex;background-color: aqua;">
+        <div style="width:90%; height: 500px;margin-left: 5%; display:flex;background-color: aqua;">
             <div style="width:60%;height: fit-content; margin-left: 5%;">
                 <div id="Map_vega" style="width: 60%; height:300px">
                     <script type="text/javascript">
@@ -46,14 +46,16 @@
             </div>
         </div>
         <!--row 2-->
-        <div class="pure-g">
-            <div id="idiom3_vega" class="pure-u-3-5">
-                <script type="text/javascript">
-                    var spec3 = "js/idiom3_vega.vg.json";
-                    vegaEmbed('#idiom3_vega', spec3).then(function (result) {
-                        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-                    }).catch(console.error);
-                </script>
+        <div sstyle="width:90%; height: 500px;margin-left: 5%; display:flex; background-color: red; margin-top:3%">
+            <div>
+                <div id="idiom3_vega" class="pure-u-3-5">
+                    <script type="text/javascript">
+                        var spec3 = "js/idiom3_vega.vg.json";
+                        vegaEmbed('#idiom3_vega', spec3).then(function (result) {
+                            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+                        }).catch(console.error);
+                    </script>
+                </div>
             </div>
             <div class="pure-u-2-5">
                 <p>
