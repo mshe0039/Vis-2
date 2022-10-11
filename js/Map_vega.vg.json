@@ -31,7 +31,7 @@
         {
             "width": 600,
             "height": 300,
-            "title": "State NBA statistics of all allstar ",
+            "title": "State NBA statistics of all allstar NBA player",
             "projection": {
                 "type": "albersUsa"
             },
