@@ -13,8 +13,28 @@
     "size": 50
   },
   "params": [{
-    "name": "select_stat",
-    "value":
+    "name": "Stat_selection",
+            "value": "PTS",
+            "bind": {
+                "input": "select",
+                "options": [
+                    "PTS",
+                    "Goal",
+                    "3P",
+                    "2P",
+                    "FT",
+                    "BKL"
+                ],
+                "labels": [
+                    "Total Points Per Round",
+                    "Total Goals Per Round",
+                    "Total 3 Pointers Per Round",
+                    "Total 2 Pointers Per Round",
+                    "Total free throws Per Round",
+                    "Total Blocks Per Round"
+                ],
+                "name": "Stat Selection: "
+            }
   }],
   "encoding": {
     "x": {
