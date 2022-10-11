@@ -3,6 +3,7 @@ html, body {
 }
 .row_1{
     display: flex;
+    background-color: bisque;
 }
 .first{
     height: fit-content;
