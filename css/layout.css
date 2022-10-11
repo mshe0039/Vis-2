@@ -1,6 +1,17 @@
 html, body {
     background-color: beige;
 }
-.pure-g{
-    width: 90%;
+.row_1{
+    display: flex;
+}
+.first{
+    height: fit-content;
+    width: 60%;
+    margin-left: 5%;
+}
+.second{
+    height: fit-content;
+    width: 25%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
