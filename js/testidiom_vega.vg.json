@@ -7,7 +7,7 @@
   "background":"#FFFFC2",
   "width": 980,
   "height": 310,
-  "title": "Performance of NBA allstars across ",
+  "title": "Performance of NBA allstars across the past 20 years",
   "params": [
     {
       "name": "year_sel",
