@@ -1,6 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "description": "A parallel coordinates plot",
+  "title": "Performance of NBA allstars across the past 20 years",
   "background":"#FFFFC2",
   "data": {
     "url": "https://raw.githubusercontent.com/mshe0039/Visualisation-2/main/2002-03%20NBA%20-%20Sheet1.csv"
