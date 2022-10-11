@@ -19,9 +19,6 @@
                 "input": "select",
                 "options": [
                     "PTS",
-                    "Goal",
-                    "3P",
-                    "2P",
                     "FT",
 
                 ],
