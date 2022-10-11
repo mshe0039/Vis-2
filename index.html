@@ -55,16 +55,6 @@
         </div>
         <!--row 2-->
         <div style="width:90%; height: 500px;margin-left: 5%; display:flex; background-color:#f8f8d7a4;">
-            <div style="width:66%;height: fit-content; margin-left: 1%;">
-                <div id="idiom3_vega">
-                    <script type="text/javascript">
-                        var spec3 = "js/idiom3_vega.vg.json";
-                        vegaEmbed('#idiom3_vega', spec3).then(function (result) {
-                            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-                        }).catch(console.error);
-                    </script>
-                </div>
-            </div>
             <div style="width:25%;height: 500px; margin-left: 5%;margin-top: 1%;">
                 <h2>this is a heading</h2>
                 <p>
@@ -91,14 +81,11 @@
                     Now she was paying the price.
                 </p>
             </div>
-        </div>
-        <!--row 3-->
-        <div style="width:90%; height: 500px;margin-left: 5%; display:flex; background-color: #f8f8d7a4;">
-            <div style="width:66%;height: 500px; margin-left: 2%;">
-                <div id="testidiom_vega">
+            <div style="width:40%;height: fit-content; margin-left: 1%;">
+                <div id="idiom3_vega">
                     <script type="text/javascript">
-                        var spec4 = "js/testidiom_vega.vg.json";
-                        vegaEmbed('#testidiom_vega', spec4).then(function (result) {
+                        var spec3 = "js/idiom3_vega.vg.json";
+                        vegaEmbed('#idiom3_vega', spec3).then(function (result) {
                             // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
                         }).catch(console.error);
                     </script>
@@ -109,6 +96,19 @@
                     <script type="text/javascript">
                         var spec2 = "js/boxandwhisker_vega.vg.json";
                         vegaEmbed('#boxandwhisker_vega', spec2).then(function (result) {
+                            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+                        }).catch(console.error);
+                    </script>
+                </div>
+            </div>
+        </div>
+        <!--row 3-->
+        <div style="width:90%; height: 500px;margin-left: 5%; display:flex; background-color: #f8f8d7a4;">
+            <div style="width:66%;height: 500px; margin-left: 2%;">
+                <div id="testidiom_vega">
+                    <script type="text/javascript">
+                        var spec4 = "js/testidiom_vega.vg.json";
+                        vegaEmbed('#testidiom_vega', spec4).then(function (result) {
                             // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
                         }).catch(console.error);
                     </script>
