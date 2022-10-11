@@ -7,7 +7,7 @@
   "background":"#FFFFC2",
   "width": 980,
   "height": 310,
-  "title": "Performance of NBA ",
+  "title": "Performance of NBA allstars across ",
   "params": [
     {
       "name": "year_sel",
