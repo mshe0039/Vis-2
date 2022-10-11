@@ -1,4 +1,4 @@
-#Map_map {
+#Map_vega {
     top:40px;
     bottom: 40px; 
     left: 50px;
@@ -7,7 +7,7 @@
     width: 20vw;
     align-self: center;
 }
-#boxandwhisker_map {
+#boxandwhisker_vega {
     top:40px;
     bottom: 40px; 
     left: 50px;
@@ -16,7 +16,7 @@
     width: 20vw;
     align-self: center;
 }
-#idiom3_map {
+#idiom3_vega {
     top:40px;
     bottom: 40px; 
     left: 50px;
@@ -25,7 +25,7 @@
     width: 20vw;
     align-self: center;
 }
-#testidiom_map {
+#testidiom_vega {
     top:40px;
     bottom: 40px; 
     left: 50px;
