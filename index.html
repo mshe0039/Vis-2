@@ -12,9 +12,30 @@
 </head>
 <body>
 <h1>First vega-lite graph</h1>
-<div id="chart"></div>
+<div id="chart">
+    <script type="text/javascript">
+    var spec2 = "js/Map_vega.vg.json";
+    vegaEmbed('#symbol_map', spec2).then(function (result) {
+    }).catch(console.error);
+  </script>
+  </div>
 <div id="chart2"></div>
+    <script type="text/javascript">
+    var spec2 = "js/boxandwhisker_vega.vg.json";
+    vegaEmbed('#symbol_map', spec2).then(function (result) {
+    }).catch(console.error);
+  </script>
 <div id="chart3"></div>
-<div id="chart4"></div>
+    <script type="text/javascript">
+    var spec2 = "js/idiom3_vega.vg.json";
+    vegaEmbed('#symbol_map', spec2).then(function (result) {
+    }).catch(console.error);
+  </script>
+<div id="chart4">
+    <script type="text/javascript">
+    var spec2 = "js/testidiom_vega.vg.json";
+    vegaEmbed('#symbol_map', spec2).then(function (result) {
+    }).catch(console.error);
+  </script></div>
 </body>
 </html>
