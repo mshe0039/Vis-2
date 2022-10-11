@@ -28,8 +28,7 @@
                 "labels": [
                     "Total Points Per Round",
                     "Total Goals Per Round",
-                    "Total 3 Pointers Per Round",
-                    "Total 2 Pointers Per Round",
+
                     "Total free throws Per Round",
                 ],
                 "name": "Stat Selection: "
