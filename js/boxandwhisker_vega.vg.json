@@ -19,8 +19,7 @@
                 "input": "select",
                 "options": [
                     "PTS",
-                    "FT",
-
+                    "FT"
                 ],
                 "labels": [
                     "Total Points Per Round",
