@@ -31,7 +31,7 @@
         {
             "width": 600,
             "height": 300,
-            "title": "Pla",
+            "title": "State",
             "projection": {
                 "type": "albersUsa"
             },
