@@ -29,7 +29,7 @@
     ],
     "hconcat": [
         {
-            "width": 500,
+            "width": 600,
             "height": 300,
             "title": "Earthquakes of magnitude 4 or large between 4 Oct2020 and 10 Oct 2020",
             "projection": {
