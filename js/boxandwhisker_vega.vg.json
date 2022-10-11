@@ -12,7 +12,9 @@
     "extent": "min-max",
     "size": 50
   },
-  "params": [],
+  "params": [{
+    "name": ""
+  }],
   "encoding": {
     "x": {
       "field": "Pos",
