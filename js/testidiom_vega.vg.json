@@ -7,7 +7,7 @@
   "background":"#FFFFC2",
   "width": 980,
   "height": 310,
-  "title": "Perf",
+  "title": "Performance of ",
   "params": [
     {
       "name": "year_sel",
