@@ -1,25 +1,39 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "An interactive scatter plot of global health statistics by country and year.",
-    "data": {"url": "https://raw.githubusercontent.com/mshe0039/Visualisation-2/main/2002-03%20NBA%20-%20Sheet1.csv"},
-    "width": 600,
-    "height": 400,
-    "params": [{
-      "name":"player",
-      "select":{"type":"point","fields": ["Player"]},
-      "bind":"legend"
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "An interactive scatter plot of global health statistics by country and year.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/mshe0039/Visualisation-2/main/2002-03%20NBA%20-%20Sheet1.csv"
+  },
+  "width": 600,
+  "height": 400,
+  "params": [
+    {
+      "name": "player",
+      "select": {
+        "type": "point",
+        "fields": [
+          "Player"
+        ]
+      },
+      "bind": "legend"
     },
     {
       "name": "year_sel",
       "value": 2002,
-      "bind":{"input": "range","min":2002,"max":2021,"step": 1,"name": "year"}
+      "bind": {
+        "input": "range",
+        "min": 2002,
+        "max": 2021,
+        "step": 1,
+        "name": "year"
+      }
     },
     {
       "name": "stat",
       "value": "PTS",
-      "bind":{
+      "bind": {
         "input": "select",
-        "options":[
+        "options": [
           "PTS",
           "G",
           "TwoP",
@@ -35,41 +49,57 @@
           "Average free throws Per Round",
           "Average Blocks Per Round"
         ],
-        "name":"Stat Selection"
-    }}],
-    "encoding": {
-      "x":{
-        "field":"Age",
-        "type": "ordinal",
-        "axis":{
-          "titleFont":"Microsoft JhengHei",
-          "labelFontWeight":"bold"
-        }
-      },
-      "y":{
-        "field":"stat2",
-        "type":"quantitative",
-        "title":"Number of a stat",
-        "axis":{
-          "titleFont":"Microsoft JhengHei",
-          "labelFontWeight":"bold"
-        }
-      },
-      "color":{"field":"Player","scale":{"scheme":"accent"}},
-      "opacity":{
-        "condition":{"param": "player","value":1},
-        "value":0.2
+        "name": "Stat Selection"
+      }
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "Age",
+      "type": "ordinal",
+      "axis": {
+        "titleFont": "Microsoft JhengHei",
+        "labelFontWeight": "bold"
       }
     },
-    "mark":{"type":"circle","size":200},
-    "transform": [{
-      "calculate": "datum[stat]","as": "stat2"
+    "y": {
+      "field": "stat2",
+      "type": "quantitative",
+      "title": "Number of a stat",
+      "axis": {
+        "titleFont": "Microsoft JhengHei",
+        "labelFontWeight": "bold"
+      }
+    },
+    "color": {
+      "field": "Player",
+      "scale": {
+        "scheme": "accent"
+      }
+    },
+    "opacity": {
+      "condition": {
+        "param": "player",
+        "value": 1
+      },
+      "value": 0.2
+    }
+  },
+  "mark": {
+    "type": "circle",
+    "size": 200
+  },
+  "transform": [
+    {
+      "calculate": "datum[stat]",
+      "as": "stat2"
     },
     {
-      "calculate": "datum[year_sel]","as":"Year"
+      "calculate": "datum[year_sel]",
+      "as": "Year"
     },
     {
-      "filter":"datum.year == year_sel"
-    }]
-  
-  }
+      "filter": "datum.year == year_sel"
+    }
+  ]
+}
