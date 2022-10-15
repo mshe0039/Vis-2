@@ -15,7 +15,7 @@
   },
   "params": [{
     "name": "Stat_selection",
-            "value": "PTS",
+            "value": "FT",
             "bind": {
                 "input": "select",
                 "options": [
