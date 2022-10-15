@@ -41,7 +41,7 @@
                         "url": "https://raw.githubusercontent.com/mshe0039/Vis-2/main/data/ne_110m_ocean.json",
                         "format": {
                             "type": "topojson",
-                            "feature": "ocean"
+                            "feature": "ne_110m_ocean"
                         }
                     },
                     "mark": {
