@@ -6,7 +6,7 @@
   "data": {
     "url": "https://raw.githubusercontent.com/mshe0039/Visualisation-2/main/2002-03%20NBA%20-%20Sheet1.csv"
   },
-  "width": 270,
+  "width": 250,
   "height": 350,
   "mark": {
     "type": "boxplot",
