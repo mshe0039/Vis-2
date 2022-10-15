@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "background":"skyblue",
+    "background":"white",
     "params": [
         {
             "name": "Stat_selection",
