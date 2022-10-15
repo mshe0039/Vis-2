@@ -29,7 +29,7 @@
     ],
     "hconcat": [
         {
-            "width": 600,
+            "width": 700,
             "height": 300,
             "title": "Combined NBA statistics of all allstar players from each State",
             "projection": {
