@@ -4,7 +4,7 @@
   "data": {
     "url": "https://raw.githubusercontent.com/mshe0039/Visualisation-2/main/2002-03%20NBA%20-%20Sheet1.csv"
   },
-  "background":"#FFFFC2",
+  "background": "#FFFFC2",
   "width": 980,
   "height": 310,
   "title": "Performance of NBA allstars across the past 20 years",
@@ -21,43 +21,26 @@
       }
     }
   ],
-  "transform": [
-    {
-      "filter": "(datum.year == year_sel)"
-    }
-  ],
+  "transform": [{"filter": "(datum.year == year_sel)"}],
   "layer": [
     {
       "mark": "rule",
       "encoding": {
-        "x": {
-          "value": 0
-        },
-        "opacity": {
-          "value": 0
-        },
+        "x": {"value": 0},
+        "opacity": {"value": 0},
         "y": {
           "field": "PTS",
           "type": "quantitative",
-          "axis": {
-            "grid": false,
-            "title": null
-          }
+          "axis": {"grid": false, "title": null}
         },
-        "detail": {
-          "field": "Player"
-        }
+        "detail": {"field": "Player"}
       }
     },
     {
       "mark": "rule",
       "encoding": {
-        "x": {
-          "value": 0
-        },
-        "opacity": {
-          "value": 0
-        },
+        "x": {"value": 0},
+        "opacity": {"value": 0},
         "y": {
           "field": "BLK",
           "type": "quantitative",
@@ -65,25 +48,17 @@
             "grid": false,
             "title": null,
             "orient": "right",
-            "offset": {
-              "expr": "-2*(width) / 3"
-            }
+            "offset": {"expr": "-2*(width) / 3"}
           }
         },
-        "detail": {
-          "field": "Player"
-        }
+        "detail": {"field": "Player"}
       }
     },
     {
       "mark": "rule",
       "encoding": {
-        "x": {
-          "value": 0
-        },
-        "opacity": {
-          "value": 0
-        },
+        "x": {"value": 0},
+        "opacity": {"value": 0},
         "y": {
           "field": "G",
           "type": "quantitative",
@@ -91,55 +66,39 @@
             "grid": false,
             "title": null,
             "orient": "right",
-            "offset": {
-              "expr": "-(width) / 3"
-            }
+            "offset": {"expr": "-(width) / 3"}
           }
         },
-        "detail": {
-          "field": "Player"
-        }
+        "detail": {"field": "Player"}
       }
     },
     {
       "mark": "rule",
       "encoding": {
-        "x": {
-          "value": 0
-        },
-        "opacity": {
-          "value": 0
-        },
+        "x": {"value": 0},
+        "opacity": {"value": 0},
         "y": {
           "field": "FT",
           "type": "quantitative",
-          "axis": {
-            "grid": false,
-            "title": null,
-            "orient": "right",
-            "offset": 0
-          }
+          "axis": {"grid": false, "title": null, "orient": "right", "offset": 0}
         }
       }
     },
     {
       "transform": [
-        {
-          "calculate": "['PTS','BLK','G','FT']",
-          "as": "x"
-        },
+        {"calculate": "['PTS','BLK','G','FT']", "as": "x"},
         {
           "calculate": "[height - scale('layer_0_y', datum.PTS), height - scale('layer_1_y', datum.BLK), height - scale('layer_2_y', datum.G), height - scale('layer_3_y', datum.FT)]",
           "as": "y"
         },
-        {
-          "flatten": [
-            "x",
-            "y"
-          ]
-        }
+        {"flatten": ["x", "y"]}
       ],
       "selection": {
+        "Player_highlight": {
+          "type": "multi",
+          "fields": ["Player"],
+          "bind": "legend"
+        },
         "hover": {
           "type": "single",
           "on": "mouseover",
@@ -147,58 +106,30 @@
           "empty": "none"
         }
       },
-      "mark": {
-        "type": "line",
-        "point": true,
-        "tooltip": {
-          "content": "data"
-        }
-      },
+      "mark": {"type": "line", "point": true, "tooltip": {"content": "data"}},
       "encoding": {
         "opacity": {
           "condition": {
-            "selection": "hover",
+            "test": {
+              "or": [{"selection": "Player_highlight"}, {"selection": "hover"}]
+            },
             "value": 1
           },
           "value": 0.2
         },
-        "color": {
-          "field": "Player"
-        },
+        "color": {"field": "Player"},
         "x": {
           "field": "x",
           "sort": null,
           "type": "ordinal",
-          "scale": {
-            "type": "point",
-            "padding": 0
-          },
-          "axis": {
-            "title": null,
-            "labelAngle": 0,
-            "domain": false
-          }
+          "scale": {"type": "point", "padding": 0},
+          "axis": {"title": null, "labelAngle": 0, "domain": false}
         },
-        "y": {
-          "field": "y",
-          "type": "quantitative",
-          "axis": null
-        },
-        "detail": {
-          "field": "Player"
-        }
+        "y": {"field": "y", "type": "quantitative", "axis": null},
+        "detail": {"field": "Player"}
       }
     }
   ],
-  "resolve": {
-    "scale": {
-      "y": "independent"
-    }
-  },
-  "config": {
-    "padding": 0,
-    "view": {
-      "stroke": null
-    }
-  }
+  "resolve": {"scale": {"y": "independent"}},
+  "config": {"padding": 0, "view": {"stroke": null}}
 }
