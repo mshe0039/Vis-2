@@ -38,6 +38,19 @@
             "layer": [
                 {
                     "data": {
+                        "url": "https://raw.githubusercontent.com/mshe0039/Vis-2/main/data/ne_110m_ocean.json",
+                        "format": {
+                            "type": "topojson",
+                            "feature": "ocean"
+                        }
+                    },
+                    "mark": {
+                        "type": "geoshape",
+                        "fill": "skyblue"
+                    }
+                },
+                {
+                    "data": {
                         "url": "https://raw.githubusercontent.com/mshe0039/Visualisation-2/main/USAj.json",
                         "format": {
                             "type": "topojson",
