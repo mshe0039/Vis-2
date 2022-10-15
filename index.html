@@ -102,20 +102,17 @@
                         </script>
                     </div>
                 </div>
-                <div style="width:25%;height: 500px; margin-right: 2%;">
-                    <div id="boxandwhisker_vega">
-                        <script type="text/javascript">
-                            var spec2 = "js/boxandwhisker_vega.vg.json";
-                            vegaEmbed('#boxandwhisker_vega', spec2).then(function (result) {
-                                // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-                            }).catch(console.error);
-                        </script>
-                    </div>
-                </div>
             </div>
             <!--row 2.5-->
             <div style="width:70%; height: 500px;margin-left: 15%; margin-top: 1%;display:flex;background-color: white;border-radius: 30px;border:10px; border-color:DarkBlue; border-style:solid">
-                
+                <div id="boxandwhisker_vega">
+                    <script type="text/javascript">
+                        var spec2 = "js/boxandwhisker_vega.vg.json";
+                        vegaEmbed('#boxandwhisker_vega', spec2).then(function (result) {
+                            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+                        }).catch(console.error);
+                    </script>
+                </div>
             </div>
             <!--row 3-->
             <div
