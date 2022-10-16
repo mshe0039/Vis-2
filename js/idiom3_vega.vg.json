@@ -84,7 +84,8 @@
       },
       {
         "field":"PTS",
-        "type": "quantitative"
+        "type": "quantitative",
+        "title":"Average Points Per Game"
       },
       {
         "field":"G",
