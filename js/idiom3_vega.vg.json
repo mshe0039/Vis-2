@@ -44,12 +44,12 @@
           "BLK"
         ],
         "labels": [
-          "Average Points Per Round",
-          "Average Goals Per Round",
-          "Average 3 Pointers Per Round",
-          "Average 2 Pointers Per Round",
-          "Average free throws Per Round",
-          "Average Blocks Per Round"
+          "Average Points Per Game",
+          "Average Goals Per Game",
+          "Average 3 Pointers Per Game",
+          "Average 2 Pointers Per Game",
+          "Average free throws Per Game",
+          "Average Blocks Per Game"
         ],
         "name": "Stat Selection"
       }
@@ -89,23 +89,28 @@
       },
       {
         "field":"G",
-        "type": "quantitative"
+        "type": "quantitative",
+        "title":"Average Goals Per Game"
       },
       {
         "field":"ThreeP",
-        "type": "quantitative"
+        "type": "quantitative",
+        "title":"Average 3 Point Goals per Game"
       },
       {
         "field":"TwoP",
-        "type": "quantitative"
+        "type": "quantitative",
+        "title":"Average 2 Point Goals per Game"
       },
       {
         "field":"FT",
-        "type": "quantitative"
+        "type": "quantitative",
+        "title":"Average Free Throws per Game"
       },
       {
         "field":"BLK",
-        "type": "quantitative"
+        "type": "quantitative",
+        "title":"Average Blocks per Game"
       }
     ],
     "color": {
