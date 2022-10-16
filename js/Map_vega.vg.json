@@ -97,7 +97,7 @@
                         },
                         "tooltip": [
                             {
-                                "field":"State",
+                                "field":"state",
                                 "type": "nominal"
                             },
                             {
