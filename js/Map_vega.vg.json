@@ -97,10 +97,6 @@
                         },
                         "tooltip": [
                             {
-                                "field":"state",
-                                "type": "nominal"
-                            },
-                            {
                                 "field": "stat",
                                 "type": "quantitative",
                                 "title": "Stat Selected"
