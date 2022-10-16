@@ -97,44 +97,15 @@
                         },
                         "tooltip": [
                             {
-                              "field":"Player",
-                              "type": "nominal"
+                                "field":"State",
+                                "type": "nominal"
                             },
                             {
-                              "field":"Age",
-                              "type": "quantitative"
-                            },
-                            {
-                              "field":"PTS",
-                              "type": "quantitative",
-                              "title":"Average Points"
-                            },
-                            {
-                              "field":"G",
-                              "type": "quantitative",
-                              "title":"Average Goals"
-                            },
-                            {
-                              "field":"ThreeP",
-                              "type": "quantitative",
-                              "title":"Average 3 Point Goals"
-                            },
-                            {
-                              "field":"TwoP",
-                              "type": "quantitative",
-                              "title":"Average 2 Point Goals"
-                            },
-                            {
-                              "field":"FT",
-                              "type": "quantitative",
-                              "title":"Average Free Throws"
-                            },
-                            {
-                              "field":"BLK",
-                              "type": "quantitative",
-                              "title":"Average Blocks"
+                                "field": "stat",
+                                "type": "quantitative",
+                                "title": "Stat Selected"
                             }
-                          ],
+                        ],
                         "text": {
                             "field": "State"
                         }
