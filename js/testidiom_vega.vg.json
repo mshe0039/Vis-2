@@ -5,7 +5,7 @@
     "url": "https://raw.githubusercontent.com/mshe0039/Visualisation-2/main/2002-03%20NBA%20-%20Sheet1.csv"
   },
   "background": "white",
-  "width": 700,
+  "width": 730,
   "height": 380,
   "title": "Performance of NBA allstars across the past 20 years",
   "params": [
