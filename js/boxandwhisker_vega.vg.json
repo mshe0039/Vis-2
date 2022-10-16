@@ -50,11 +50,10 @@
         "field": "Pos",
         "oneOf": [
           "Small Forward",
-          "SG",
-          "PF",
-          "PG",
-          "C",
-          "SG-PG"
+          "Shooting Gaurd",
+          "Power Forward",
+          "Point Gaurd",
+          "Center"
         ]
       }
     },
