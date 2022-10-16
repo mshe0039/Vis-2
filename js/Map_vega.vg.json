@@ -94,7 +94,7 @@
                         "color": {
                             "field": "stat",
                             "type": "quantitative",
-                            "scale":{"scheme":"orangeblue"}
+                            "scale":{"scheme":"blueorange"}
                         },
                         "tooltip": [
                             {
