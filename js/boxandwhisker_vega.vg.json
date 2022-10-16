@@ -49,7 +49,7 @@
       "filter": {
         "field": "Pos",
         "oneOf": [
-          "SF",
+          "Small Forward",
           "SG",
           "PF",
           "PG",
