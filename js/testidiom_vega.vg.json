@@ -126,7 +126,46 @@
           "axis": {"title": null, "labelAngle": 0, "domain": false}
         },
         "y": {"field": "y", "type": "quantitative", "axis": null},
-        "detail": {"field": "Player"}
+        "tooltip":[
+          {
+            "field":"Player",
+            "type": "nominal"
+          },
+          {
+            "field":"Age",
+            "type": "quantitative"
+          },
+          {
+            "field":"PTS",
+            "type": "quantitative",
+            "title":"Average Points"
+          },
+          {
+            "field":"G",
+            "type": "quantitative",
+            "title":"Average Goals"
+          },
+          {
+            "field":"ThreeP",
+            "type": "quantitative",
+            "title":"Average 3 Point Goals"
+          },
+          {
+            "field":"TwoP",
+            "type": "quantitative",
+            "title":"Average 2 Point Goals"
+          },
+          {
+            "field":"FT",
+            "type": "quantitative",
+            "title":"Average Free Throws"
+          },
+          {
+            "field":"BLK",
+            "type": "quantitative",
+            "title":"Average Blocks"
+          }
+        ]
       }
     }
   ],
