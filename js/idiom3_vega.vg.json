@@ -85,32 +85,32 @@
       {
         "field":"PTS",
         "type": "quantitative",
-        "title":"Average Points Per Game"
+        "title":"Average Points"
       },
       {
         "field":"G",
         "type": "quantitative",
-        "title":"Average Goals Per Game"
+        "title":"Average Goals"
       },
       {
         "field":"ThreeP",
         "type": "quantitative",
-        "title":"Average 3 Point Goals per Game"
+        "title":"Average 3 Point Goals"
       },
       {
         "field":"TwoP",
         "type": "quantitative",
-        "title":"Average 2 Point Goals per Game"
+        "title":"Average 2 Point Goals"
       },
       {
         "field":"FT",
         "type": "quantitative",
-        "title":"Average Free Throws per Game"
+        "title":"Average Free Throws"
       },
       {
         "field":"BLK",
         "type": "quantitative",
-        "title":"Average Blocks per Game"
+        "title":"Average Blocks"
       }
     ],
     "color": {
