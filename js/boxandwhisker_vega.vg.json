@@ -4,7 +4,7 @@
   "title": "Performance of different positions in the NBA",
   "background":"white",
   "data": {
-    "url": "https://raw.githubusercontent.com/mshe0039/Visualisation-2/main/2002-03%20NBA%20-%20Sheet1.csv"
+    "url": "https://raw.githubusercontent.com/mshe0039/Vis-2/main/data/2002-03%20NBA%20-%20Sheet1.csv"
   },
   "width": 220,
   "height": 250,
@@ -35,11 +35,13 @@
       "type": "nominal"
     },
     "color": {
-      "field": "Pos"
+      "field": "Pos",
+      "title": "Position"
     },
     "y": {
       "field": "stat_sel",
-      "type": "quantitative"
+      "type": "quantitative",
+      "title": "Selected stat"
     }
   },
   "transform": [
