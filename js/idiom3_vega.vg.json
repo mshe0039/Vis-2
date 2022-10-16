@@ -38,8 +38,8 @@
         "options": [
           "PTS",
           "G",
-          "TwoP",
           "ThreeP",
+          "TwoP",
           "FT",
           "BLK"
         ],
@@ -73,6 +73,40 @@
         "labelFontWeight": "bold"
       }
     },
+    "tooltip":[
+      {
+        "field":"Player",
+        "type": "nominal"
+      },
+      {
+        "field":"Age",
+        "type": "quantitative"
+      },
+      {
+        "field":"PTS",
+        "type": "quantitative"
+      },
+      {
+        "field":"Goal",
+        "type": "quantitative"
+      },
+      {
+        "field":"ThreeP",
+        "type": "quantitative"
+      },
+      {
+        "field":"TwoP",
+        "type": "quantitative"
+      },
+      {
+        "field":"FT",
+        "type": "quantitative"
+      },
+      {
+        "field":"BLK",
+        "type": "quantitative"
+      }
+    ],
     "color": {
       "field": "Player",
       "scale": {
