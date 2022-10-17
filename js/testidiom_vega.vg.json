@@ -136,12 +136,12 @@
             "type": "quantitative"
           },
           {
-            "field":"PTS",
+            "field":"Points",
             "type": "quantitative",
             "title":"Average Points"
           },
           {
-            "field":"G",
+            "field":"Goal",
             "type": "quantitative",
             "title":"Average Goals"
           },
@@ -161,7 +161,7 @@
             "title":"Average Free Throws"
           },
           {
-            "field":"BLK",
+            "field":"Blocks",
             "type": "quantitative",
             "title":"Average Blocks"
           }
