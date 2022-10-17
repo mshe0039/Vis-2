@@ -7,7 +7,7 @@
     "url": "https://raw.githubusercontent.com/mshe0039/Vis-2/main/data/2002-03%20NBA%20-%20Sheet1.csv"
   },
   "width": 220,
-  "height": 250,
+  "height": 290,
   "mark": {
     "type": "boxplot",
     "extent": "min-max",
