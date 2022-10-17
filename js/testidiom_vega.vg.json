@@ -29,7 +29,7 @@
         "x": {"value": 0},
         "opacity": {"value": 0},
         "y": {
-          "field": "PTS",
+          "field": "Points",
           "type": "quantitative",
           "axis": {"grid": false, "title": null}
         },
