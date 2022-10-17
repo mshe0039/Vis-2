@@ -182,9 +182,9 @@
                 "y": {
                     "field": "stat2",
                     "type": "quantitative",
-                    "title":"Selected Statistic",
                     "axis": {
-                        "titleFont": "Microsoft JhengHei"
+                        "titleFont": "Microsoft JhengHei",
+                        "title":"Selected Statistic"
                     }
                 },
                 "color": {
