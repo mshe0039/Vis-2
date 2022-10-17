@@ -42,7 +42,7 @@
         "x": {"value": 0},
         "opacity": {"value": 0},
         "y": {
-          "field": "BLK",
+          "field": "Blocks",
           "type": "quantitative",
           "axis": {
             "grid": false,
@@ -60,7 +60,7 @@
         "x": {"value": 0},
         "opacity": {"value": 0},
         "y": {
-          "field": "G",
+          "field": "Goal",
           "type": "quantitative",
           "axis": {
             "grid": false,
@@ -78,7 +78,7 @@
         "x": {"value": 0},
         "opacity": {"value": 0},
         "y": {
-          "field": "FT",
+          "field": "Free Throws",
           "type": "quantitative",
           "axis": {"grid": false, "title": null, "orient": "right", "offset": 0}
         }
@@ -86,7 +86,7 @@
     },
     {
       "transform": [
-        {"calculate": "['Points','BLK','G','FT']", "as": "x"},
+        {"calculate": "['Points','Blocks','Goal','Free Throws']", "as": "x"},
         {
           "calculate": "[height - scale('layer_0_y', datum.PTS), height - scale('layer_1_y', datum.BLK), height - scale('layer_2_y', datum.G), height - scale('layer_3_y', datum.FT)]",
           "as": "y"
