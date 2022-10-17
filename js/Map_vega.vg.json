@@ -176,7 +176,8 @@
                     "type": "nominal",
                     "axis": {
                         "titleFont": "Microsoft JhengHei",
-                        "title": null
+                        "title": null,
+                        "labelFont": "Microsoft JhengHei"
                     }
                 },
                 "y": {
