@@ -46,7 +46,7 @@
           "type": "quantitative",
           "axis": {
             "grid": false,
-            "title": null,
+            "title": "Points",
             "orient": "right",
             "offset": {"expr": "-2*(width) / 3"}
           }
