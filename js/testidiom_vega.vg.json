@@ -46,7 +46,7 @@
           "type": "quantitative",
           "axis": {
             "grid": false,
-            "title": "Points",
+            "title": null,
             "orient": "right",
             "offset": {"expr": "-2*(width) / 3"}
           }
@@ -57,7 +57,7 @@
     {
       "mark": "rule",
       "encoding": {
-        "x": {"value": 0},
+        "x": {"value": 0, "title":"Goals"},
         "opacity": {"value": 0},
         "y": {
           "field": "G",
