@@ -32,7 +32,8 @@
   "encoding": {
     "x": {
       "field": "Pos",
-      "type": "nominal"
+      "type": "nominal",
+      "axis":null
     },
     "color": {
       "field": "Pos",
