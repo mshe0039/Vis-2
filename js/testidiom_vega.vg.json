@@ -86,7 +86,7 @@
     },
     {
       "transform": [
-        {"calculate": "['PTS','BLK','G','FT']", "as": "x"},
+        {"calculate": "['Points','BLK','G','FT']", "as": "x"},
         {
           "calculate": "[height - scale('layer_0_y', datum.PTS), height - scale('layer_1_y', datum.BLK), height - scale('layer_2_y', datum.G), height - scale('layer_3_y', datum.FT)]",
           "as": "y"
