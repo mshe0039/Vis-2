@@ -57,7 +57,7 @@
     {
       "mark": "rule",
       "encoding": {
-        "x": {"value": 0, "title":"Goals"},
+        "x": {"value": 0},
         "opacity": {"value": 0},
         "y": {
           "field": "G",
@@ -123,7 +123,7 @@
           "sort": null,
           "type": "ordinal",
           "scale": {"type": "point", "padding": 0},
-          "axis": {"title": null, "labelAngle": 0, "domain": false}
+          "axis": {"title": null, "labelAngle": 0, "domain": false, "labelExpr": "Points"}
         },
         "y": {"field": "y", "type": "quantitative", "axis": null},
         "tooltip":[
