@@ -50,9 +50,9 @@
         "field": "Pos",
         "oneOf": [
           "Small Forward",
-          "Shooting Gaurd",
+          "Shooting Guard",
           "Power Forward",
-          "Point Gaurd",
+          "Point Guard",
           "Center"
         ]
       }
