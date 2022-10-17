@@ -88,7 +88,7 @@
       "transform": [
         {"calculate": "['Points','Blocks','Goal','Free Throws']", "as": "x"},
         {
-          "calculate": "[height - scale('layer_0_y', datum.Points), height - scale('layer_1_y', datum.Blocks), height - scale('layer_2_y', datum.Goal), height - scale('layer_3_y', datum[Free throws])]",
+          "calculate": "[height - scale('layer_0_y', datum.Points), height - scale('layer_1_y', datum.Blocks), height - scale('layer_2_y', datum.Goal), height - scale('layer_3_y', datum[Free Throws])]",
           "as": "y"
         },
         {"flatten": ["x", "y"]}
