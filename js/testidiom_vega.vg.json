@@ -156,7 +156,7 @@
             "title":"Average 2 Point Goals"
           },
           {
-            "field":"FT",
+            "field":"FreeThrows",
             "type": "quantitative",
             "title":"Average Free Throws"
           },
