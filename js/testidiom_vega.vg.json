@@ -78,7 +78,7 @@
         "x": {"value": 0},
         "opacity": {"value": 0},
         "y": {
-          "field": "Free Throws",
+          "field": "FreeThrows",
           "type": "quantitative",
           "axis": {"grid": false, "title": null, "orient": "right", "offset": 0}
         }
@@ -86,7 +86,7 @@
     },
     {
       "transform": [
-        {"calculate": "['Points','Blocks','Goal','Free Throws']", "as": "x"},
+        {"calculate": "['Points','Blocks','Goal','FreeThrows']", "as": "x"},
         {
           "calculate": "[height - scale('layer_0_y', datum.Points), height - scale('layer_1_y', datum.Blocks), height - scale('layer_2_y', datum.Goal), height - scale('layer_3_y', datum.FreeThrows)]",
           "as": "y"
