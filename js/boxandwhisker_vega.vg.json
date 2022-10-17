@@ -37,7 +37,8 @@
     },
     "color": {
       "field": "Pos",
-      "title": "Position"
+      "title": "Position",
+      "scale":{"scheme":"dark2"}
     },
     "y": {
       "field": "stat_sel",
