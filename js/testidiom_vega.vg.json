@@ -123,7 +123,7 @@
           "sort": null,
           "type": "ordinal",
           "scale": {"type": "point", "padding": 0},
-          "axis": {"title": null, "labelAngle": 0, "domain": false, "values":["Points"]}
+          "axis": {"title": null, "labelAngle": 0, "domain": false, "ticks":false}
         },
         "y": {"field": "y", "type": "quantitative", "axis": null},
         "tooltip":[
