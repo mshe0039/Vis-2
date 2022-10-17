@@ -101,7 +101,7 @@
                             {
                                 "field": "stat",
                                 "type": "quantitative",
-                                "title": "Stat Selected"
+                                "title": "Statistic Selected"
                             }
                         ],
                         "text": {
