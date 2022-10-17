@@ -15,12 +15,12 @@
   },
   "params": [{
     "name": "Stat_selection",
-            "value": "FT",
+            "value": "Free",
             "bind": {
                 "input": "select",
                 "options": [
-                    "PTS",
-                    "FT"
+                    "Points",
+                    "Free"
                 ],
                 "labels": [
                     "Total Points Per Round",
