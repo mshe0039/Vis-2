@@ -95,7 +95,7 @@
                             "field": "stat",
                             "type": "quantitative",
                             "scale":{"scheme":"blueorange"},
-                            "title":"Selected Stat"
+                            "title":"Selected Statistic"
                         },
                         "tooltip": [
                             {
@@ -182,6 +182,7 @@
                 "y": {
                     "field": "stat2",
                     "type": "quantitative",
+                    "title":"Selected Statistic",
                     "axis": {
                         "titleFont": "Microsoft JhengHei"
                     }
