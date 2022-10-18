@@ -187,7 +187,9 @@
                         "titleFont": "Microsoft JhengHei",
                         "title":"Selected Statistic"
                     },
-                    "aggregate": "sum"
+                    
+                    "aggregate": "max"
+                    
                 },
                 "color": {
                     "condition": {
