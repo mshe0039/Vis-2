@@ -163,7 +163,7 @@
             "data": {
                 "url": "https://raw.githubusercontent.com/mshe0039/Visualisation-2/main/filtered_data.csv"
             },
-            "mark": "bar",
+            "mark": "text",
             "transform": [
                 {
                     "calculate": "datum[Stat_selection]",
@@ -186,7 +186,8 @@
                     "axis": {
                         "titleFont": "Microsoft JhengHei",
                         "title":"Selected Statistic"
-                    }
+                    },
+                    "aggregate": "sum"
                 },
                 "color": {
                     "condition": {
